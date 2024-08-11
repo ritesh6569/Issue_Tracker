@@ -1,0 +1,42 @@
+/* General Styles
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* IssueForm Styles */
+  /* form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+   */
+  /* IssueHistory Styles */
+  /* h2, h3 {
+    text-align: center;
+  }
+  
+  div > div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  } */

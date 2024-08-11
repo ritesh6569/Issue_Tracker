@@ -1,0 +1,149 @@
+.issue-history {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f7f9fc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0056b3; 
+  color: #fff;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.logout-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #e0e0e0;
+}
+
+.history-section {
+  text-align: center;
+  margin: 20px;
+}
+
+.issues-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.current-issues, .tasks-to-resolve {
+  width: 48%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #0056b3; 
+}
+
+h3 {
+  background-color: #e9ecef; 
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.current-issues-info, .tasks-to-resolve-info {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; 
+  border-radius: 5px;
+}
+
+.tasks-to-resolve-info p, .current-issues-info p {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #f1f3f5; 
+}
+
+.report-issue-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.report-issue-button:hover {
+  background-color: #0056b3; 
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks button {
+  background-color: #28a745; 
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tasks button:hover {
+  background-color: #218838; 
+}
+
+.issue-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.issue-item span {
+  font-weight: bold;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.status.completed {
+  background-color: #28a745; 
+  color: #fff;
+}
+
+.status.pending {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.status.in-progress {
+  background-color: #17a2b8;
+  color: #fff;
+}
