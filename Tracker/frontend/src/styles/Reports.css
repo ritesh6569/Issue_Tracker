@@ -1,0 +1,74 @@
+
+ .report-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 1400px; */
+    width: 100%;
+  }
+  
+  .tasks-information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.9);
+    background-color: #f9f9f9;
+  }
+  
+  .reports-he {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Ensure vertical alignment */
+    width: 100%;
+    padding: 5px 0; /* Add padding for better spacing */
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;  
+  }
+  
+  .reports:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .h, .td {
+    padding: 2px 0px; /* Added horizontal padding for consistency */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    width: 20%;
+    border: 1px solid black;
+  }
+  
+  .current {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Ensure vertical alignment */
+    width: 99%;
+    padding: 10px 10px; /* Add padding for better spacing */
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+    
+  }
+  
+  .pt {
+    display: flex;
+    text-align: center;
+    width: 20%; /* Ensure equal width for consistent alignment */
+    margin: 0;
+    border: 1px solid black;
+  }
+
+  .report-section h2{
+    margin-top: 10px;
+  }
